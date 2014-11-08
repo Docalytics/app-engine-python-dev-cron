@@ -5,6 +5,9 @@ App engine is great, but their python SDK does not include a way to actually exe
 
 This is a simple python script that reads in your cron.yaml file, and uses pythons thread library to schedule, monitor, and execute the jobs defined in your cron.yaml file on your local running instnace of app engine SDK.
 
+*Authored by* [Evan Carothers](https://github.com/ecaroth) @ [Docalytics](https://github.com/orgs/Docalytics/dashboard)
+
+
 ####Usage
 To run the script simply call it from the command line with the needed arguments, listed below. It will continue to run until you manually stop the script execution
 
